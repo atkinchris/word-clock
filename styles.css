@@ -1,0 +1,16 @@
+body {
+  font-size: 4vmin;
+  font-family: monospace;
+  word-spacing: -1.1em;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  line-height: 1.6em;
+  white-space: nowrap;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
