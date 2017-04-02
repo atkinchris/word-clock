@@ -22,7 +22,7 @@ body {
 .ten_mins #m_10, .ten_mins #w_minutes,
 .fifteen_mins #m_15,
 .twenty_mins #m_20, .twenty_mins #w_minutes,
-.twenty-five_mins #m_5, .twenty-five_mins #m_20,
+.twenty-five_mins #m_5, .twenty-five_mins #m_20, .twenty-five_mins #w_minutes,
 .thirty_mins #m_30,
 .past #w_past,
 .to #w_to,
