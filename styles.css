@@ -18,7 +18,27 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.on,
+.five_minutes #m_5, .five_minutes #w_minutes,
+.ten_minutes #m_10, .ten_minutes #w_minutes,
+.fifteen_minutes #m_15,
+.twenty_minutes #m_20,
+.twenty-five_minutes #m_5, .twenty-five_minutes #m_20,
+.thirty_minutes #m_30,
+.past #w_past,
+.to #w_to,
+.one #h_1,
+.two #h_2,
+.three #h_3,
+.four #h_4,
+.five #h_5,
+.six #h_6,
+.seven #h_7,
+.eight #h_8,
+.nine #h_9,
+.ten #h_10,
+.eleven #h_11,
+.twelve #h_12,
+.oclock #w_oclock,
 .always-on {
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 0.3em #FFFFFF;
