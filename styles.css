@@ -1,5 +1,5 @@
 body {
-  font-size: 4vmin;
+  font-size: 5vmin;
   font-family: monospace;
   word-spacing: -1.1em;
   letter-spacing: 0.5em;
@@ -7,8 +7,8 @@ body {
   line-height: 1.6em;
   white-space: nowrap;
 
-  background: #333333;
-  color: rgba(255, 255, 255, 0.1);
+  background: #222831;
+  color: #EEEEEE;
 }
 
 .container {
@@ -16,6 +16,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+span {
+  opacity: 0.1;
 }
 
 .five_mins #m_5, .five_mins #w_minutes,
@@ -40,6 +44,6 @@ body {
 .twelve #h_12,
 .oclock #w_oclock,
 .always-on {
-  color: rgba(255, 255, 255, 0.9);
-  text-shadow: 0 0 0.3em #FFFFFF;
+  opacity: 0.9;
+  text-shadow: 0 0 0.3em #EEEEEE;
 }
