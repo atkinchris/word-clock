@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "http-server"
+  },
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.1.2",
