@@ -17,7 +17,7 @@ function getHours(date) {
   if (minutes === 0) {
     return HOURS[hours] + ' oclock'
   }
-  if (minutes > 30) {
+  if (minutes < 30) {
     return 'past ' + HOURS[hours]
   }
   return 'to ' + HOURS[hours + 1]
