@@ -11,7 +11,7 @@ function getMinutes(date) {
 }
 
 function getHours(date) {
-  var minutes = date.getMinutes() / 15
+  var minutes = date.getMinutes()
   var hours = (date.getHours() % 12) || 12
 
   if (minutes === 0) {
@@ -27,7 +27,7 @@ function setTime() {
   var now = new Date()
   var minutes = getMinutes(now)
   var hours = getHours(now)
-  var classes = minutes + ' ' + hours
+  var classes = 'itis ' + minutes + ' ' + hours
 
   document.body.className = classes
 }

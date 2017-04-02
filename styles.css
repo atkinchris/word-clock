@@ -22,6 +22,7 @@ span {
   opacity: 0.1;
 }
 
+.itis .w_itis,
 .five_mins #m_5, .five_mins #w_minutes,
 .ten_mins #m_10, .ten_mins #w_minutes,
 .fifteen_mins #m_15,
@@ -43,6 +44,7 @@ span {
 .eleven #h_11,
 .twelve #h_12,
 .oclock #w_oclock,
+.message .w_message,
 .always-on {
   opacity: 0.9;
   text-shadow: 0 0 0.3em #EEEEEE;
